@@ -1,6 +1,4 @@
-import React from 'react'
-import Logo from './Logo'
-// import Menu from './Menu'
+import React from 'react';
 
 export default function Footer() {
   return (
