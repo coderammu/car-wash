@@ -5,6 +5,7 @@ import Footer from './component/Footer';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import BookNow from './pages/BookNow';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/book-now" element={<BookNow/>}/>
           </Routes>
         </main>
         <Footer />
